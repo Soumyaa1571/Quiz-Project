@@ -23,18 +23,33 @@ PORT: Contains the port on which server will run
 
 You can create a .env file in the root directory of the project to set these variables.
 
-## Running the project Locally
+# Installation
 
-Clone the repository:https://github.com/Soumyaa07/MyProject.git
+Clone the repository
 
-Install dependencies:
-cd 'server'
+```
+https://github.com/Soumyaa07/MyProject.git
+```
+## Install Dependencies
 
-npm Install
+#### Navigate to the Backend directory:
+  ``` cd Backend backup\server ```
+#### Install backend Dependencies
+``` npm i ```  
+#### Navigate to the project root directory:
+  ``` cd..```
+  ``` cd..```
+#### Navigate to the frontend directory
+  ``` cd Play Quiz\vite-project ```
+#### Install frontend dependencies:
+  ``` npm i ``` 
 
-Start the server:npm run app
+## Run Locally
 
-The server will listen to PORT NO. 5000 by default.
+#### Start the frontend server:
+``` npm run dev ```
+#### Start the Backend server 
+ ``` npm run app ```
 
 
 
