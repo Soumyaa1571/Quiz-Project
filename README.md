@@ -47,7 +47,7 @@ https://github.com/Soumyaa07/MyProject.git
 ## Run Locally
 
 #### Start the frontend server:
-``` npm run dev ```
+``` npm start ```
 #### Start the Backend server 
  ``` npm run app ```
 
